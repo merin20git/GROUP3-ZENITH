@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Meet Group 3: ZENITH</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: white;
+      background-image: url('zen.jpeg'); /* Replace with your background image filename */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 40px 20px;
+      min-height: 100vh;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 3em;
+      margin-bottom: 10px;
+      letter-spacing: 2px;
+    }
+
+
+    .logo-section {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 40px;
+    }
+
+    .logo-section img {
+      width: 400px; /* Adjust logo size as needed */
+      height: auto;
+    }
+
+    .team-section {
+      display: flex;
+      justify-content: center;
+    }
+
+    .team-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      max-width: 1200px;
+    }
+
+    .member-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 200px;
+    }
+
+    .photo-box, .member {
+      background: rgba(255, 255, 255, 0.1);
+      border: 2px solid #fff;
+      border-radius: 10px;
+      padding: 15px;
+      text-align: center;
+      width: 100%;
+      transition: transform 0.3s ease, background 0.3s ease;
+    }
+
+    .photo-box:hover, .member:hover {
+      transform: scale(1.05);
+      background: rgba(255, 255, 255, 0.2);
+    }
+
+    .photo-box img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .member h3 {
+      margin: 10px 0 5px;
+      font-size: 1.2em;
+    }
+
+    .member p {
+      margin: 0;
+      font-style: italic;
+      font-size: 0.95em;
+    }
+
+
+ .card {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 20px;
+      padding: 2rem;
+      max-width: 600px;
+      width: 90%;
+      text-align: center;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+      margin-bottom: 2rem;
+    }
+
+    .team-title {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      color: #00ffff;
+      font-weight: bold;
+    }
+
+
+
+
+    .social-media {
+      display: flex;
+      gap: 1.5rem;
+      justify-content: center;
+      margin-top: 1rem;
+    }
+
+    .social-media a {
+      color: white;
+      font-size: 1.2rem;
+      text-decoration: none;
+      padding: 0.6rem 1.2rem;
+      border-radius: 30px;
+      transition: all 0.3s ease;
+    }
+
+    .social-media a.instagram {
+      background: #e1306c;
+    }
+
+    .social-media a.youtube {
+      background: #ff0000;
+    }
+
+    .social-media a:hover {
+      opacity: 0.8;
+      transform: scale(1.05);
+    }
+
+    @media (max-width: 600px) {
+      .logo-section img {
+        width: 80%;
+      }
+
+      .member-card {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <h1>Meet Group 3: ZENITH</h1>
+        <div class="logo-section">
+      <img src="log.png" alt="ZENITH Logo" />
+    </div>
+
+    <div class="team-section">
+      <div class="team-grid">
+
+        <div class="member-card">
+          <div class="photo-box"><img src="res.png" alt="Reshmi" /></div>
+          <div class="member">
+            <h3>Reshmi</h3>
+            <p>Rajapuraskar holder</p>
+          </div>
+        </div>
+
+        <div class="member-card">
+          <div class="photo-box"><img src="san.png" alt="Sangeetha" /></div>
+          <div class="member">
+            <h3>Sangeetha</h3>
+            <p>Trained singer</p>
+          </div>
+        </div>
+
+        <div class="member-card">
+          <div class="photo-box"><img src="an.png" alt="Ananthakrishnan" /></div>
+          <div class="member">
+            <h3>Ananthakrishnan</h3>
+            <p>NSS leader</p>
+          </div>
+        </div>
+
+        <div class="member-card">
+          <div class="photo-box"><img src="sha.png" alt="Shahina" /></div>
+          <div class="member">
+            <h3>Shahina</h3>
+            <p>Internship at coimbatore</p>
+          </div>
+        </div>
+
+        <div class="member-card">
+          <div class="photo-box"><img src="wis.png" alt="Wissam" /></div>
+          <div class="member">
+            <h3>Wissam</h3>
+            <p>Studied in saudi</p>
+          </div>
+        </div>
+
+        <div class="member-card">
+          <div class="photo-box"><img src="tes.png" alt="Tessa" /></div>
+          <div class="member">
+            <h3>Tessa</h3>
+            <p>Attended national seminar</p>
+          </div>
+        </div>
+
+        <div class="member-card">
+          <div class="photo-box"><img src="pra.png" alt="Praveen" /></div>
+          <div class="member">
+            <h3>Praveen</h3>
+            <p>Working as freelancer</p>
+          </div>
+        </div>
+
+        <div class="member-card">
+          <div class="photo-box"><img src="mer.png" alt="Merin" /></div>
+          <div class="member">
+            <h3>Merin</h3>
+            <p>College project head</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+<!-- Social Media Section -->
+    <div class="card">
+      <div class="team-title">Follow Us</div>
+<div class="team-title">Email_id : Zenith@gmail.com</div>
+      <div class="social-media">
+        <a href="https://www.instagram.com/_.ze_ni_th._?igsh=MTJ4cnd2N2p1cDcwdQ==&utm_source=ig_contact_invite" target="_blank" class="instagram">Instagram</a>
+        <a href="https://youtu.be/sTlMyFRQRlc?si=zvIPXccTienjqG39" target="_blank" class="youtube">YouTube</a>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
